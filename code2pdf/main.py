@@ -9,9 +9,9 @@ class PdfMaker:
         self.fontSize = fontSize
         self.pathOfSource = path
         if output is not None or output != "":
-            self.canvas = c.Canvas(output + "book_of_code.pdf", pagesize=A4)
+            self.canvas = c.Canvas(self.pathOfSource + "book_of_code.pdf", pagesize=A4)
         else:
-            self.canvas = c.Canvas("../" + self.pathOfSource + "book_of_code.pdf", pagesize=A4)
+            self.canvas = c.Canvas(output + "book_of_code.pdf", pagesize=A4)
         self.w, self.h = A4
         self.lFiles = list()  # [] extensions
         self.dFiles = dict()  # {} file names : content
