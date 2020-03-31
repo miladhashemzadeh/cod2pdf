@@ -40,7 +40,7 @@ class PdfMaker:
 
     def _addFile(self):
         for fn in self.lFiles:  # fn = file name
-            file = open(fn, "+r")
+            file = open(fn, "+r", encoding="utf8")
             content = self.canvas.beginText(0, self.h - 30)
             self.dFiles[str(fn)] = content
             self.makeContent(content, fn)
@@ -119,5 +119,5 @@ class PdfMaker:
 
 
 if __name__ == "__main__":
-    pathOfSource = "C:/Users/milad/Downloads/Android-Hand-Sensor-Game-master/2048 Game/2048 Game/app/src/main/java/ca/uwaterloo"
-    PdfMaker(['java', 'class'], path=pathOfSource)
+    pathOfSource = "D:/dwonloads/project/open source projects/Timber-master/app/src/main/java"
+    PdfMaker(['java', 'h', 'c', 'cpp', 'hpp'], path=pathOfSource)
