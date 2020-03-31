@@ -1,4 +1,11 @@
 # cod2pdf
-just for reading at any time code</br>
-needs many improvement it's good at now.!!!
-build, and enjoy it.
+Books are mankind's friend.</br>
+Codes are of way to our nxt world. </br>
+Combine both of them thats you'll not be alone in way to future. </br>
+Read code, write code build the world. 
+
+Under construction if you think this is good Utility help and build it.
+E-mail me :milad.dev.official@gmail.com
+
+
+ 
